@@ -1,0 +1,55 @@
+# Site Info
+title: Lets Groove
+tagline: ''
+description: ''
+baseurl: ""
+url: http://utsman.github.io
+logo: '/public/logo_2.jpg'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: utsman
+  description: 괜찮아 잘 될꺼야 :)
+  gravatar: 360b50cab3b5edce02ac76bb9ab95060 # md5 hash of your email address
+  contact:
+    github:    https://github.com/utsman
+    email:     http://www.google.com/recaptcha/mailhide/d?k=01Aa7BNB0EXrdeFdHYnuwDbQ==&c=QW1LqQn0GDm2FeBnlDENVmoi6nn34CgUUTRihu0-ZLM=
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/yotsuba_wall_2.jpg
+  caption: ''
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-92268273-1' # leave blank if you don't want google analytics
+disqus_short_name: 'utsmans-blog' # leave blank if you don't want disqus
+
