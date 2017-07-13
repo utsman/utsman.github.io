@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Mutex & Semaphore
+title: Mutex,Semaphore
 category: java
 tags: [java, thread, mutex, semaphore]
 ---
 
 
-# Mutex & Semaphore
+# Mutex,Semaphore
 
 ## Mutex 
 
